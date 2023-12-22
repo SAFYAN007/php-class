@@ -7,7 +7,6 @@
 // print_r( [1, 2, 3, 4] );
 // var_dump( [1, 2, 3, 4] );
 
-
 ////variables
 // $a = "10";
 // $b = 20;
@@ -32,18 +31,61 @@ var_dump($json);
 
 //for loop while loop do-while loop same as js
 
-//for of loop foreach
-foreach($arr as $item)
-{
-    echo $item;
-    echo '<br>';
-}
-/* 
-for(let item of arr)
-{
 
+$data = [1, 2, 3, 4, 5];
+$sum = 0;
+
+foreach($data as $item)
+{
+    $sum += $item;
+}
+
+echo "Sum is ";
+echo $sum;
+
+/* 
+data = [1, 2, 3 ,4];
+for(let item of data)
+{
+    sum += item;
 }
 */
+
+
+echo '<h1>Strings</h1>';
+
+
+$name = "Moin";
+$age = 10;
+echo "How are you $name and age is $age";
+echo "<br>";
+echo 'How are you $name and age is $age';
+
+$x = "hello";
+$y = "world";
+
+echo "<br>";
+echo "<br>";
+echo $x ." ". $y;
+
+
+echo "<br>";
+echo 'Length of str ';
+echo strlen( "Hello world" );
+
+
+
+
+
+// Arrays one-dimension   multi-dimension    associative-array( js JSON, key=>value pairs)
+
+
+
+
+
+
+
+
 
 
 

@@ -1,6 +1,6 @@
 HTML
 HTTPs: HYPER TEXT TRANSFER PROTOCOL secure
-ip:        8.8.8.8,      12.42.44.1
+ip:    address ->    8.8.8.8,      12.42.44.1
 domain: www.google.com, facebook.com
 Server: jaha par files/website save hoti he ( Appache-Xampp server )(hostinger.com)
 Client: jo request krke files/website access krta he ( Browser )
